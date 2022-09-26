@@ -1,0 +1,38 @@
+/* VARIABLES */
+
+:root {
+    /* colors */
+    --bg-col: #006cfa;
+    --bg-inner-col: #00e165;
+}
+
+/* DEBUG */
+
+.container {
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.row {
+    border: 1 px dashed darkblue;
+}
+
+/* COMMON */
+
+.box {
+    min-height: 50px;
+    background-color: var(--bg-col);
+    color: white;
+    border: .5px solid white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.box-inner {
+    background-color: var(--bg-inner-col);
+    height: 50px;
+    border: 1px solid var(--bg-col);
+    text-align: center;
+}
